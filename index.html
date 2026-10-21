@@ -1,4 +1,40 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Install BG Alerts</title>
-<style>:root{color-scheme:light dark}body{margin:0;background:#f5f5f7;font:17px/1.45 -apple-system,system-ui,sans-serif;color:#1d1d1f}@media(prefers-color-scheme:dark){body{background:#000;color:#f5f5f7}}main{max-width:480px;margin:0 auto;padding:48px 16px;text-align:center}</style>
-</head><body><main><h1>BG Alerts</h1><p>No build has been published yet.</p></main></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Install BG Alerts</title>
+<style>
+  :root { color-scheme: light dark; --bg: #f5f5f7; --card: #fff; --text: #1d1d1f; --muted: #6e6e73; --accent: #0071e3; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #000; --card: #1c1c1e; --text: #f5f5f7; --muted: #98989d; --accent: #2997ff; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.45 -apple-system, system-ui, sans-serif; }
+  main { max-width: 480px; margin: 0 auto; padding: 48px 16px; }
+  .card { background: var(--card); border-radius: 18px; padding: 28px 24px; text-align: center; }
+  h1 { font-size: 28px; margin: 0 0 6px; }
+  p { margin: 0; color: var(--muted); }
+  a.install { display: block; margin: 24px 0; padding: 15px; border-radius: 12px; background: var(--accent); color: #fff; font-weight: 600; text-decoration: none; }
+  dl { display: grid; grid-template-columns: auto auto; justify-content: center; gap: 4px 12px; margin: 0; font-size: 15px; }
+  dt { color: var(--muted); text-align: right; }
+  dd { margin: 0; text-align: left; }
+  ol { color: var(--muted); font-size: 15px; padding-left: 20px; margin: 20px 0 0; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h1>BG Alerts</h1>
+    <p>Version 1.0 (202610210033)</p>
+    <a class="install" href="itms-services://?action=download-manifest&amp;url=https://cruzisabike.github.io/bg-alerts-install/manifest.plist">Install</a>
+    <dl>
+      <dt>Built</dt><dd>2026-10-21</dd>
+      <dt>Works until</dt><dd>2027-07-10</dd>
+    </dl>
+  </div>
+  <ol>
+    <li>Open this page in <strong>Safari</strong> on the iPhone.</li>
+    <li>Tap Install, then Install again when iOS asks.</li>
+    <li>It updates the app in place. Settings and Health permission are kept.</li>
+  </ol>
+</main>
+</body>
+</html>
